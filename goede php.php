@@ -5,16 +5,16 @@
 
     if ($time >= 6 && $time < 11){
         $bg = "morning.png";
-        $greeting = "goedemorgen";
+        $greeting = "Goedemorgen";
     } elseif ($time >= 11 && $time < 17) {
         $bg = "afternoon.png";
-        $greeting = "goedemiddag";
+        $greeting = "Goedemiddag";
     } elseif ($time >= 17 && $time < 23 ) {
         $bg = "evening.png";
-        $greeting = "goedeavond";
+        $greeting = "Goedeavond";
     } elseif ($time >= 0 && $time < 6) {
         $bg = "night.png";
-        $greeting = "goedenacht";
+        $greeting = "Goedenacht";
     }
   
 ?>
